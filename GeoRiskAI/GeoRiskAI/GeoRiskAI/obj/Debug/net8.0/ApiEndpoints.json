@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "GeoRiskAI.Controllers.RiskController",
+    "Method": "GetRisk",
+    "RelativePath": "api/risk/{country}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "GeoRiskAI.DTOs.RiskResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
